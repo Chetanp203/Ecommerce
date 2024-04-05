@@ -27,14 +27,16 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex w-1/4 cursor-pointer justify-end gap-5">
-          <FiShoppingCart />
-          <HiMiniMagnifyingGlass />
+          <FiShoppingCart size="20px" />
+          <HiMiniMagnifyingGlass size="20px" />
         </div>
       </div>
       <div className="flex h-9 items-center justify-center gap-4 bg-[#F4F4F4]">
-        <MdKeyboardArrowLeft />
-        <span>Get 10% off on business sign up</span>
-        <MdKeyboardArrowRight />
+        <MdKeyboardArrowLeft size="16px" />
+        <span className="text-sm font-medium">
+          Get 10% off on business sign up
+        </span>
+        <MdKeyboardArrowRight size="16px" />
       </div>
     </div>
   );
